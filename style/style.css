@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6495ed;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+main{
+    background-color: #e6e6fa;
+    /* width: 850px; */
+    padding: 4rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main ul{
+    padding: 3rem;
+    list-style-type: circle;
+}
+
+input{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+div.wrapper>*{
+    margin-bottom: 1.5rem;
+}
+
+/* CSS credits by Squareshot */
+.button {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 2rem;
+    height: 4rem;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 1rem 2rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button:hover:after {
+    transform: translate(0, 0);
+}
+
+.button:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button:hover {
+    outline: 0;
+}
+
+/* CSS */
+.button-adder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-adder:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+ul.display-none{
+    display:none;
+}
+
+
+span.ingredient{
+    margin-right: 1rem;
+}
